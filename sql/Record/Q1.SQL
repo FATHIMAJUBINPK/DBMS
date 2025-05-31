@@ -1,5 +1,3 @@
-EXERCISE 1
-
 1. Create a database
 CREATE DATABASE employee;
 Query OK, 1 row affected (0.01 sec)

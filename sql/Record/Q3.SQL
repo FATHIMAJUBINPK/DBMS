@@ -1,5 +1,3 @@
--- EXERCISE 3: SQL Joins and Subqueries
-
 1. Display all employee names and their department names in department name order.
 SELECT e.ename, d.deptname
 FROM Employee e

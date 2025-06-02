@@ -294,7 +294,7 @@ SELECT MAX(salary) - MIN(salary) AS salary_difference FROM Employee;
  23. List number of employees per department and job title where there are more than 2 employees
 SELECT deptno, JOB, COUNT(*) as emp_count
 FROM Employee
-GROUP BY deptno
+GROUP BY deptno,job
 HAVING COUNT(*) > 2;
 
  Output:
